@@ -63,18 +63,18 @@ pip install -r requirements-dev.txt
 Dinah Martins –  – negociosdinah@gmail.com
 
 
-# Este sistema funciona melhor na versão 3.8v do Python3
+#### Este sistema funciona melhor na versão 3.8v do Python3
 
-# Após configurar o requirements.txt e  requirements-dev.txt
+#### Após configurar o requirements.txt e  requirements-dev.txt
 
-# pip uninstall SQLAlchemy
+#### pip uninstall SQLAlchemy
 
-# pip install SQLAlchemy==1.3.24
+#### pip install SQLAlchemy==1.3.24
 
-# pip uninstall Jinja2
+#### pip uninstall Jinja2
 
-# pip install Jinja2==3.0.2
+#### pip install Jinja2==3.0.2
 
-## Instale o MySQL Installer Comunity
+#### Instale o MySQL Installer Comunity
 
-## Instale o WorkBench
+#### Instale o WorkBench
