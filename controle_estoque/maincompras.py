@@ -32,8 +32,8 @@ class MainCompras(Ui_ct_MainCompras, Ui_ct_FormCompra, DataAtual):
                             self.resourcepath('Images/addCompra.svg'))
         self.IconeBotaoMenu(self.bt_BuscaCompras,
                             self.resourcepath('Images/search.png'))
-        self.IconeBotaoMenu(self.bt_PrintRelatCompras,
-                            self.resourcepath('Images/gtk-print.png'))
+        # self.IconeBotaoMenu(self.bt_PrintRelatCompras,
+        #                     self.resourcepath('Images/gtk-print.png'))
 
                 
         """ 
@@ -55,8 +55,8 @@ class MainCompras(Ui_ct_MainCompras, Ui_ct_FormCompra, DataAtual):
         # Busca Instantanea ao digitar nome do fornecedor
         self.tx_BuscaCompras.textEdited.connect(self.DataTabCompras)
 
-        # Imprimir Tabela
-        self.bt_PrintRelatCompras.clicked.connect(self.imprimirTabCompra)
+        # # Imprimir Tabela
+        # self.bt_PrintRelatCompras.clicked.connect(self.imprimirTabCompra)
 
         # Setando dat Inicio e Fim da consulta
         self.dt_InicioCompra.setDate(self.primeiroDiaMes())

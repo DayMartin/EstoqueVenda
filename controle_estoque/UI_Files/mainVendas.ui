@@ -131,7 +131,7 @@ color: #000
       <bool>true</bool>
      </property>
     </widget>
-    <widget class="QPushButton" name="bt_PrintRelatVendas">
+    <!-- <widget class="QPushButton" name="bt_PrintRelatVendas">
      <property name="geometry">
       <rect>
        <x>860</x>
@@ -160,7 +160,7 @@ color: #000
      <property name="text">
       <string/>
      </property>
-    </widget>
+    </widget> -->
     <widget class="QDateEdit" name="dt_InicioVenda">
      <property name="geometry">
       <rect>

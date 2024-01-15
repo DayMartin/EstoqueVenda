@@ -179,7 +179,7 @@ background: #7AB32E
       <string notr="true">color: #FFF</string>
      </property>
      <property name="text">
-      <string>Titulo</string>
+      <string>DINAH</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -204,7 +204,7 @@ background: #7AB32E
       <string notr="true">color: #FFF</string>
      </property>
      <property name="text">
-      <string>Subtitulo</string>
+      <string>DORIA</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>

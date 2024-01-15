@@ -49,8 +49,8 @@ class MainVendas(Ui_ct_MainVendas, Ui_ct_FormVenda, DataAtual):
         # Busca Instantanea ao digitar nome do cliente
         self.tx_BuscaVendas.textEdited.connect(self.DataTabVendas)
 
-        # Imprimir Tabela
-        self.bt_PrintRelatVendas.clicked.connect(self.imprimirTabVenda)
+        # # Imprimir Tabela
+        # self.bt_PrintRelatVendas.clicked.connect(self.imprimirTabVenda)
 
         # Setando data Inicio e Fim da Consulta
         self.dt_InicioVenda.setDate(self.primeiroDiaMes())
@@ -73,8 +73,8 @@ class MainVendas(Ui_ct_MainVendas, Ui_ct_FormVenda, DataAtual):
                             self.resourcepath('Images/addVenda.svg'))
         self.IconeBotaoMenu(self.bt_BuscaVendas,
                             self.resourcepath('Images/search.png'))
-        self.IconeBotaoMenu(self.bt_PrintRelatVendas,
-                            self.resourcepath('Images/gtk-print.png'))
+        # self.IconeBotaoMenu(self.bt_PrintRelatVendas,
+        #                     self.resourcepath('Images/gtk-print.png'))
 
         self.DataTabVendas()
 
@@ -213,7 +213,7 @@ class MainVendas(Ui_ct_MainVendas, Ui_ct_FormVenda, DataAtual):
         # Botao Cancelar
         self.bt_Voltar.clicked.connect(self.janelaVendas)
 
-        # Botao Imprimir
+        # # Botao Imprimir
         self.bt_Imprimir.clicked.connect(self.imprimirVenda)
 
     # checando campo Id se é Edicao ou Nova Venda
