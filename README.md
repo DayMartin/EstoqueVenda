@@ -60,17 +60,21 @@ pip install -r requirements-dev.txt
 
 ## Meta
 
-André França – [@rspandre]([https://web.facebook.com/andrefrancarsp](https://web.facebook.com/andrefrancarsp)) – rsp.assistencia@gmail.com
-
-[https://github.com/andrersp/](https://github.com/andrersp/)
-
-## Contributing
-
-1. Faça o _fork_ do projeto (<https://github.com/yourname/yourproject/fork>)
-2. Crie uma _branch_ para sua modificação (`git checkout -b feature/fooBar`)
-3. Faça o _commit_ (`git commit -am 'Add some fooBar'`)
-4. _Push_ (`git push origin feature/fooBar`)
-5. Crie um novo _Pull Request_
+Dinah Martins –  – negociosdinah@gmail.com
 
 
-#
+# Este sistema funciona melhor na versão 3.8v do Python3
+
+# Após configurar o requirements.txt e  requirements-dev.txt
+
+# pip uninstall SQLAlchemy
+
+# pip install SQLAlchemy==1.3.24
+
+# pip uninstall Jinja2
+
+# pip install Jinja2==3.0.2
+
+## Instale o MySQL Installer Comunity
+
+## Instale o WorkBench
