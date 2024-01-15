@@ -1,0 +1,7 @@
+PyQt5
+PyQtWebEngine
+mysql-connector-python
+jinja2
+pycep_correios
+mysqlclient
+sqlalchemy
